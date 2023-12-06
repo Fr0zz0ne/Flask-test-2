@@ -6,6 +6,6 @@ WORKDIR /workdir
 COPY requirements.txt /workdir/
 RUN pip install --upgrade pip wheel
 RUN pip install -r requirements.txt
-COPY . /workdir/
+COPY . /workdir/
 
 CMD  python -m flask run
