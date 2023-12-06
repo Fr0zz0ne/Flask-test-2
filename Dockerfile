@@ -8,4 +8,4 @@ RUN pip install --upgrade pip wheel
 RUN pip install -r requirements.txt
 COPY . /workdir/
 
-CMD  python -m flask run
+CMD ["python", "-m", "flask", "run"]
