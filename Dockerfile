@@ -8,4 +8,4 @@ RUN pip install --upgrade pip wheel
 RUN pip install -r requirements.txt
 COPY . /workdir/
 
-CMD ["python", "-m", "flask", "run"]
+CMD ["python", "flask", "run", "--", "--host=0.0.0.0", "--port=6000"]

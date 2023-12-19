@@ -1,4 +1,4 @@
 name: Toystack
 version: 0.1
-env_variables:
+env_variables: port:5000
 port: 5000
