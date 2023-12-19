@@ -1,0 +1,4 @@
+name: Toystack
+version: 0.1
+env_variables:
+port: 5000
